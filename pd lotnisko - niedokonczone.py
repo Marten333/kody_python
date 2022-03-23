@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import random
 
 def stworz_macierz(n, ran,w,kol):
-    M=[[4]*n for i in range(n)]
+    M=[[0]*n for i in range(n)]
     for i in range(ran):
         k=random.randint(0,w)
         l=random.randint(0,kol)
